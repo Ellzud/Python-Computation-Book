@@ -7,4 +7,6 @@ for i in range (0,len(a)):
         if (a[i] > bigSoFar):
             bigSoFar = a[i]
 
+if (bigSoFar ==0):
+    print("There are no odd number in the list")
 print(bigSoFar)
